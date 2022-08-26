@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            font-family: sans-serif;
+        }
+        .logo
+        {
+            display: grid;
+            height: 60px;
+            width: 100%;
+        }
+        .item-logo
+        {
+            width: 100px;
+            height: 55px;
+            justify-self: center;
+        }
+        .container
+        {
+            display: grid;
+            width: 100%;
+            height: 395px;
+        }
+        .miniContainer
+        {
+            display: grid;
+            width: 100%;
+            height: 105px;
+        }
+        .footer
+        {
+            height: 105px;
+            width: 337px;
+            justify-self: center;
+        }
+        .set
+        {
+            height: 295px;
+            width: 335px;
+            justify-self: center;
+            border: 1px rgb(210, 205, 205) solid;
+            border-radius: 3px;
+        }
+        #texto
+        {
+            margin-left: 20px;
+        }
+        #label
+        {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        #email
+        {
+            margin-left: 20px;
+            display: flex;
+            width: 285px;
+            height: 27px;
+            justify-content: center;
+            border: 0.5px rgb(183, 179, 179) solid;
+            border-radius: 2px; 
+        }
+        #boton
+        {
+            margin-left: 20px;
+            width: 293px;
+            height: 30px;
+            background: #f3ce70; 
+            border: 0.5px rgb(144, 138, 138) solid;
+            border-radius: 2px; 
+        }
+        #linkstext
+        {
+            margin-left: 20px;
+            font-size: 12.9px;
+        }
+        #botonBig
+        {
+            width: 337px;
+            height: 35px;
+            justify-self: center;
+        }
+        #foot
+        {
+            font-size: 12.9px;
+            justify-self: center;
+        }
+        #email:hover
+        {
+            box-shadow: 1px 1px 16px 2px orange;
+        }
+        #boton:hover
+        {
+            box-shadow: inset 1px 1px 16px 2px rgba(218, 140, 15, 0.82);
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+            <img class="item-logo" src="Amazon-Logo.png">
+    </div>
+    <div class="container">
+        <div class="set">
+            <h1 id="texto">Sign in</h1>
+            <label id="label" for="email">Email or mobile phone number</label>
+            <input type="text" id="email">
+            <br>
+            <input type="button" value="Continue" id="boton">
+            <p id="linkstext">By continuing, you agree to Amazon's<a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use </a>
+            and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice.</a></p>
+            <a id="linkstext" href="https://www.amazon.com/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&prevRID=ZGZ09YAXQEP0R7SHMJ05&openid.assoc_handle=usflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">.Need help?</a>
+        </div>
+        <input type="button" value="Create your Amazon acount" id="botonBig">
+    </div>
+    <div class="miniContainer">
+        <div class="footer">
+            <p id="foot"><a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088">condicions of use &nbsp;</a>  
+            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice &nbsp;</a>
+            <a href="https://www.amazon.com/ap/forgotpassword?showRememberMe=true&openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&prevRID=ZGZ09YAXQEP0R7SHMJ05&openid.assoc_handle=usflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">help</a>
+            <br> <b> © 1996-2022, Amazon.com, Inc. or its affiliates</b></p>
+        </div>
+    </div>
+</body>
+</html>
